@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 45b1ff60b8ed1d54fad41a90939b505d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: LeavesScatter006
+    100002: //RootNode
+    100004: Scatter1_Cut
+    100006: Scatter2_Cut
+    100008: Shrub01_A_Branch01
+    100010: Shrub01_A_Branch02
+    100012: Shrub01_A_Leaves
+    100014: Plant_Shrub_01_Branch
+    100016: Plant_Shrub_01_Leaves
+    100018: IL3DN_Shrub_Round_01_Branch_LOD0
+    100020: IL3DN_Shrub_Round_01_Branch_LOD1
+    100022: IL3DN_Shrub_Round_01_Branch_LOD2
+    100024: IL3DN_Shrub_Round_01_Branch_LOD3
+    100026: IL3DN_Shrub_Round_01_Leaves_LOD0
+    100028: IL3DN_Shrub_Round_01_Leaves_LOD1
+    100030: IL3DN_Shrub_Round_01_Leaves_LOD2
+    100032: IL3DN_Shrub_Round_01_Leaves_LOD3
+    100034: IL3DN_Shrub_Round_01_Card
+    100036: IL3DN_Shrub_Round_01_Card_Dead
+    400000: LeavesScatter006
+    400002: //RootNode
+    400004: Scatter1_Cut
+    400006: Scatter2_Cut
+    400008: Shrub01_A_Branch01
+    400010: Shrub01_A_Branch02
+    400012: Shrub01_A_Leaves
+    400014: Plant_Shrub_01_Branch
+    400016: Plant_Shrub_01_Leaves
+    400018: IL3DN_Shrub_Round_01_Branch_LOD0
+    400020: IL3DN_Shrub_Round_01_Branch_LOD1
+    400022: IL3DN_Shrub_Round_01_Branch_LOD2
+    400024: IL3DN_Shrub_Round_01_Branch_LOD3
+    400026: IL3DN_Shrub_Round_01_Leaves_LOD0
+    400028: IL3DN_Shrub_Round_01_Leaves_LOD1
+    400030: IL3DN_Shrub_Round_01_Leaves_LOD2
+    400032: IL3DN_Shrub_Round_01_Leaves_LOD3
+    400034: IL3DN_Shrub_Round_01_Card
+    400036: IL3DN_Shrub_Round_01_Card_Dead
+    2100000: Tree_Bark_Default
+    2100002: Tree_Leaf_Default
+    2100004: Default_Bark
+    2100006: Default_Leaves
+    2100008: Default_Cards
+    2300000: LeavesScatter006
+    2300002: Scatter1_Cut
+    2300004: Scatter2_Cut
+    2300006: Shrub01_A_Branch01
+    2300008: Shrub01_A_Branch02
+    2300010: Shrub01_A_Leaves
+    2300012: Plant_Shrub_01_Branch
+    2300014: Plant_Shrub_01_Leaves
+    2300016: IL3DN_Shrub_Round_01_Branch_LOD0
+    2300018: IL3DN_Shrub_Round_01_Branch_LOD1
+    2300020: IL3DN_Shrub_Round_01_Branch_LOD2
+    2300022: IL3DN_Shrub_Round_01_Branch_LOD3
+    2300024: IL3DN_Shrub_Round_01_Leaves_LOD0
+    2300026: IL3DN_Shrub_Round_01_Leaves_LOD1
+    2300028: IL3DN_Shrub_Round_01_Leaves_LOD2
+    2300030: IL3DN_Shrub_Round_01_Leaves_LOD3
+    2300032: IL3DN_Shrub_Round_01_Card
+    2300034: IL3DN_Shrub_Round_01_Card_Dead
+    3300000: LeavesScatter006
+    3300002: Scatter1_Cut
+    3300004: Scatter2_Cut
+    3300006: Shrub01_A_Branch01
+    3300008: Shrub01_A_Branch02
+    3300010: Shrub01_A_Leaves
+    3300012: Plant_Shrub_01_Branch
+    3300014: Plant_Shrub_01_Leaves
+    3300016: IL3DN_Shrub_Round_01_Branch_LOD0
+    3300018: IL3DN_Shrub_Round_01_Branch_LOD1
+    3300020: IL3DN_Shrub_Round_01_Branch_LOD2
+    3300022: IL3DN_Shrub_Round_01_Branch_LOD3
+    3300024: IL3DN_Shrub_Round_01_Leaves_LOD0
+    3300026: IL3DN_Shrub_Round_01_Leaves_LOD1
+    3300028: IL3DN_Shrub_Round_01_Leaves_LOD2
+    3300030: IL3DN_Shrub_Round_01_Leaves_LOD3
+    3300032: IL3DN_Shrub_Round_01_Card
+    3300034: IL3DN_Shrub_Round_01_Card_Dead
+    4300000: Scatter2_Cut
+    4300002: Scatter1_Cut
+    4300004: LeavesScatter006
+    4300006: Shrub01_A_Branch01
+    4300008: Shrub01_A_Leaves
+    4300010: Shrub01_A_Branch02
+    4300012: Plant_Shrub_01_Branch
+    4300014: Plant_Shrub_01_Leaves
+    4300016: IL3DN_Shrub_Round_01_Branch_LOD0
+    4300018: IL3DN_Shrub_Round_01_Branch_LOD1
+    4300020: IL3DN_Shrub_Round_01_Branch_LOD2
+    4300022: IL3DN_Shrub_Round_01_Branch_LOD3
+    4300024: IL3DN_Shrub_Round_01_Leaves_LOD0
+    4300026: IL3DN_Shrub_Round_01_Leaves_LOD1
+    4300028: IL3DN_Shrub_Round_01_Leaves_LOD2
+    4300030: IL3DN_Shrub_Round_01_Leaves_LOD3
+    4300032: IL3DN_Shrub_Round_01_Card_Dead
+    4300034: IL3DN_Shrub_Round_01_Card
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Bark
+    second: {fileID: 2100000, guid: d196cda956361f54cb094f4acad1b233, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Cards
+    second: {fileID: 2100000, guid: 0007dba6afb45374c88b62d209ed9c5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Leaves
+    second: {fileID: 2100000, guid: 49205e5c7b68f364b92a10e9b3e76a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Bark_Default
+    second: {fileID: 2100000, guid: b1a81ad02b24ecc4681f7bd3b2b5131a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Leaf_Default
+    second: {fileID: 2100000, guid: 707b1b9442a138f4abc1c88bbe7e786a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.5038476
+    - 0.2538076
+    - 0.10485837
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IL3DN_Water
+  m_Shader: {fileID: 4800000, guid: 60751e0ebc0c92d4b9adf09e2596d80a, type: 3}
+  m_ShaderKeywords: EFFECT_HUE_VARIATION GEOM_TYPE_LEAF _ALPHAPREMULTIPLY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 76738900a2dcf084990de478555ec33c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal01:
+        m_Texture: {fileID: 2800000, guid: cf5563a56d739884d95d26874d209831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal02:
+        m_Texture: {fileID: 2800000, guid: cf5563a56d739884d95d26874d209831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 8900000, guid: a9f053d430424adb925523ba78342596, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shadermap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b205deb31ccb3284a810ae940ea9a51e, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DeepOpacity: 1
+    - _Depth: 3.2
+    - _Depthdarkness: 1
+    - _DetailNormalMapScale: 1
+    - _Distortion: 0
+    - _DstBlend: 10
+    - _Float0: 0.694
+    - _Float2: 1
+    - _FlowSpeed: 1
+    - _Foam: 0.1
+    - _FoamDepth: 0
+    - _FoamEdge: 1
+    - _FoamFalloff: 0
+    - _FoamOpacity: 1
+    - _FoamSize: 1
+    - _FoamSmoothness: 0
+    - _FoamSpecular: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.19
+    - _GlossyReflections: 1
+    - _Metallic: 0.398
+    - _Mode: 3
+    - _NormalScale: 0.18
+    - _NormalStrenght: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RefractionAmount: 0
+    - _RimSize: 0.83
+    - _Rimfalloff: 1.5
+    - _SHallowOpacity: 1
+    - _ShadowStrength: 0.5
+    - _ShallowOpacity: 0.2
+    - _Shininess: 0.15
+    - _Size: 0.25
+    - _Smoothness: 5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.025
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _TessValue: 16
+    - _Tiling: 0.05
+    - _TranslucencyViewDependency: 0
+    - _Transparency: 2
+    - _UVSec: 0
+    - _WaterDepth: 0
+    - _WaterFalloff: -0.5
+    - _WaterOpacity: 0.088
+    - _WaterSmoothness: 0.33
+    - _WaterSpecular: 0
+    - _WavesAmount: 93.73
+    - _WavesAmplitude: 0.02
+    - _WindQuality: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _BottomColor: {r: 0.2781999, g: 0.09594162, b: 0.41509432, a: 1}
+    - _Color: {r: 0.09545212, g: 0.31258285, b: 0.3679245, a: 0.42745098}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.02990388, g: 0.16228628, b: 0.30188626, a: 1}
+    - _EdgeColor: {r: 0.4339623, g: 0.33974534, b: 0.16580635, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 1, b: 1, a: 1}
+    - _MidColor: {r: 0.113725476, g: 0.5294118, b: 0.4537716, a: 1}
+    - _RimColor: {r: 0.40032038, g: 0.49056602, b: 0.45731762, a: 1}
+    - _ShallowColor: {r: 0.16019884, g: 0.45282984, b: 0.35354424, a: 1}
+    - _ShalowColor: {r: 0.06421317, g: 0.36792442, b: 0.33499187, a: 0.6156863}
+    - _TopColor: {r: 0.44872433, g: 0.4716981, b: 0, a: 1}
+    - _TranslucencyColor: {r: 0.72321427, g: 1, b: 0, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor: {r: 0.05887325, g: 0.46226412, b: 0.38302666, a: 1}
+  m_BuildTextureStacks: []

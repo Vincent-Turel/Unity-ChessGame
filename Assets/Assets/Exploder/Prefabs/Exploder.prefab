@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000012979162030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000010244210212}
+  - component: {fileID: 114000013268536328}
+  - component: {fileID: 114000011295712436}
+  m_Layer: 0
+  m_Name: Exploder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010244210212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012979162030}
+  m_LocalRotation: {x: 0, y: 0.6877847, z: 0, w: 0.7259148}
+  m_LocalPosition: {x: 0, y: 12.38, z: 9.72}
+  m_LocalScale: {x: 7.1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013268536328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012979162030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b945f9aa6e0d3de46ab1fabcf3b510b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DontUseTag: 0
+  Radius: 30
+  CubeRadius: {x: 0, y: 0, z: 0}
+  UseCubeRadius: 0
+  ForceVector: {x: 0, y: 1, z: 0}
+  UseForceVector: 0
+  Force: 10
+  FrameBudget: 15
+  TargetFragments: 15
+  ThreadOption: 2
+  ExplodeSelf: 0
+  DisableRadiusScan: 0
+  HideSelf: 0
+  DestroyOriginalObject: 0
+  UniformFragmentDistribution: 0
+  SplitMeshIslands: 0
+  DisableTriangulation: 0
+  FragmentPoolSize: 1000
+  Use2DCollision: 0
+  CuttingStyle: 0
+  FragmentDeactivation:
+    DeactivateOptions: 2
+    DeactivateTimeout: 5
+    FadeoutOptions: 0
+  FragmentSFX:
+    FragmentEmitter: {fileID: 0}
+    ChanceToPlay: 100
+    PlayOnlyOnce: 0
+    MixMultipleSounds: 0
+    EmitersMax: 1000
+    ParticleTimeout: 11.122388
+  FragmentOptions:
+    FragmentPrefab: {fileID: 0}
+    FreezePositionX: 0
+    FreezePositionY: 0
+    FreezePositionZ: 0
+    FreezeRotationX: 0
+    FreezeRotationY: 0
+    FreezeRotationZ: 0
+    Layer: Default
+    ExplodeFragments: 1
+    MaxVelocity: 100
+    InheritParentPhysicsProperty: 1
+    Mass: 20
+    UseGravity: 1
+    DisableColliders: 0
+    MeshColliders: 0
+    AngularVelocity: 1
+    MaxAngularVelocity: 7
+    AngularVelocityVector: {x: 0, y: 1, z: 0}
+    RandomAngularVelocityVector: 1
+    FragmentMaterial: {fileID: 0}
+--- !u!114 &114000011295712436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012979162030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f248d80a6128a34cab81cb1cd3ebe15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
