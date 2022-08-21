@@ -17,6 +17,12 @@ Every rules of chess are strictly implemented including castling, promotion, and
 
 Our AI has been developped using a minimax algorithm with alpha beta pruning to improve performances and speed. It works with a depth parameter which is set up to 1, 2 and 3 for Easy Medium and Hard respectively. For a depth greater than 3 the algorithm takes too long to process.
 
+There are also many funny sounds/animations/explosions to discover !
+
+## How to execute
+
+Simply download the lastest release, unzip the build and use the executable in it.
+
 ## Screenshots
 
 ### Main menu :
